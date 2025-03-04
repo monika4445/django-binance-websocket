@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.example
+
+# Django-specific
+db.sqlite3
+logs/
+*.log
+staticfiles/
+media/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# PostgreSQL / Redis data (if using Docker volumes)
+postgres-data/
+redis-data/
+
+# Python packages
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Migrations (optional if you generate them on deployment)
+apps/**/migrations/*.py
+!apps/**/migrations/__init__.py

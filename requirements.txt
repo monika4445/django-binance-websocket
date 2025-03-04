@@ -1,0 +1,8 @@
+Django
+djangorestframework
+django-channels
+psycopg2-binary
+redis
+pytest
+pytest-django
+websockets
