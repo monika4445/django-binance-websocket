@@ -6,3 +6,10 @@ redis
 pytest
 pytest-django
 websockets
+django-redis
+channels
+channels-redis
+pytest-asyncio
+celery
+dotenv
+python-dotenv
