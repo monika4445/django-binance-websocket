@@ -8,3 +8,4 @@ async def test_binance_consumer():
     connected, _ = await communicator.connect()
     assert connected
     await communicator.disconnect()
+
