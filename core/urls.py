@@ -11,4 +11,3 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('api/history/', CryptoPriceHistory.as_view(), name='price-history'),
 ]
-

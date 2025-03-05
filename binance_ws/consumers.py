@@ -23,7 +23,7 @@ class BinanceConsumer(AsyncWebsocketConsumer):
             await self.send(text_data=json.dumps({"price": cached_price}))
 
         try:
-            self.binance_ws = await asyncio.wait_for(self.get_binance_data(), timeout=60)  
+            self.binance_ws = await asyncio.wait_for(self.get_binance_data(), timeout=130)  
         except asyncio.TimeoutError:
             print("WebSocket connection timed out.")
             await self.close()
